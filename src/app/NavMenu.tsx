@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function NavMenu() {
   return (
-    <nav className=" bg-blue-600 flex justify-between p-6">
+    <nav className=" bg-blue-800 flex justify-between p-6">
       <Link href={"/"}>
         <Image src="/logo.svg" width={216} height={30} alt="NextSapce Logo" />
       </Link>
